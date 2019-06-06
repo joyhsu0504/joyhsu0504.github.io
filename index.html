@@ -1,90 +1,49 @@
+<!DOCTYPE html>
 <html>
 <head>
-<style type="text/css">
-
-p {
-	font-variant: small-caps;
-	font-size: 12px;
-	font-family: monospace;
+<style>
+img { 
+  width: 100%;
+  border-radius: 50%; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-
-img {
-    padding: 0;
-    display: block;
-    margin: 0 auto;
-    max-height: 100%;
-    max-width: 100%;
-    position: absolute;
-    top: 0px;
-    left: 0px;
+.border {
+	border-width: 8px;
+	border-color: white;
+	border-style: solid;
 }
-
-h2 { 
-   position: absolute; 
-   top: 200px; 
-   left: 0; 
-   width: 100%; 
+.top-spacing {
+     margin-top: 2cm;
 }
-
-h2 span { 
-   line-height: 65px; 
-   color: white; 
-   font: bold 36px monospace; 
-   letter-spacing: 0px;  
-   background: rgb(0, 0, 0); /* fallback color */
-   background: rgba(0, 0, 0, 0.7);
-   padding: 10px; 
-}
-
-h2 span.spacer {
-   padding:0 5px;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 25%;
-    background-color: #f1f1f1;
-    height: 100%; 
-    top: 0px;
-    right: 0;
-    position: fixed; 
-    overflow: auto; 
-}
-
-li a {
-    font-size: 36px;
-    font-family: monospace;
-    display: block;
-    color: #000;
-    padding: 8px 16px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: #555;
-    color: white;
-}
-
-.active {
-    background-color: #000;
-    color: white;
-}
-
 </style>
 </head>
+<body bgcolor="#f7f7f7">
 
-<body>
-<img src="images/catyo.jpg" />
-<h2><span>joy hsu<span class='spacer'></span><br /><span class='spacer'><br /><span class='spacer'></span>software developer // cat lover</span></h2>
-<ul>
-  <li><a class="active" href="#home">Home</a></li>
-  <li><a href="#news">News</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li><a href="#about">About</a></li>
-</ul>
+<p class="top-spacing">
+<img src="profile.png" alt="Profile" style="width:168px;height:168px;" class="border">
+</p>
+
+<p><b>
+<center><font face="verdana" color="#313033" size="6">joy hsu</font></center>
+</p></b>
+
+<p>
+<center><font face="verdana" color="#313033">bs & ms at stanford - computer science</font></center>
+<center><font face="verdana" color="#313033">artificial intelligence & biocomputing track</font></center>
+<center><font face="verdana" color="#313033">organized <a href="https://www.treehacks.com">treehacks</a> and taught <a href="https://stanfordpython.com">cs41</a> as head course staff</font></center>
+</p>
+
+<p>
+<center><font face="verdana" color="#313033">currently research @ <a href="https://ai.google/healthcare">google medical brain</a> & <a href="http://pair.stanford.edu">stanford vision and learning lab</a></font></center>
+<center><font face="verdana" color="#313033">previously @ deepmind, google assistant, apple photos search</font></center>
+</p>
+
+
+<p>
+<center><font face="verdana" color="#313033">let's chat about computer vision, representation learning, and reinforcement learning! </font></center>
+</p>
 
 </body>
-
 </html>
